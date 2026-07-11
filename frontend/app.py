@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 st.set_page_config(page_title="Hỏi đáp BCTC", layout="wide")
-st.title("Hệ Thống Đọc và Hỏi Đáp BCTC 🚀")
+st.title("Hãy hỏi ta đi các con vợ")
 
 # Thêm ô nhập câu hỏi
 user_query = st.text_input(
