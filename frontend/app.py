@@ -2,11 +2,11 @@ import streamlit as st
 import requests
 
 st.set_page_config(page_title="Hỏi đáp BCTC", layout="wide")
-st.title("Hệ Thống Đọc và Hỏi Đáp BCTC 🚀")
+st.title("Hỏi gì bé đi các vịu ơ")
 
 user_query = st.text_input(
     "Bạn muốn hỏi gì về tài liệu này?", 
-    value="Hãy bóc tách các dữ liệu quan trọng trong tài liệu này thành định dạng JSON."
+    value="Hỏi đi hỏi đi í ì i"
 )
 
 # SỬA LẠI: Thêm các định dạng ảnh và cho phép chọn nhiều file cùng lúc
