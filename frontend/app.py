@@ -16,8 +16,7 @@ if uploaded_file is not None:
             try:
                 # Gửi file tới Backend FastAPI (cổng 8080)
                 files = {"file": (uploaded_file.name, uploaded_file.getvalue(), "application/pdf")}
-                response = requests.post("[http://127.0.0.1:8080/api/extract](http://127.0.0.1:8080/api/extract)", files=files)
-                
+                response = requests.post("http://127.0.0.1:8080/api/extract", files=files)
                 if response.status_code == 200:
                     res_data = response.json()
                     if res_data["status"] == "success":
