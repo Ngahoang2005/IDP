@@ -7,7 +7,7 @@ st.title("Hãy hỏi ta đi các con vợ")
 # Thêm ô nhập câu hỏi
 user_query = st.text_input(
     "Bạn muốn hỏi gì về tài liệu này?", 
-    value="Hãy bóc tách các dữ liệu quan trọng trong trang này thành định dạng JSON."
+    value="Hỏi đi sao không hỏi gì thế....."
 )
 
 uploaded_file = st.file_uploader("Kéo thả file PDF (Scan) vào đây", type=['pdf'])
